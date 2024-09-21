@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lightshow</title>
+  </head>
+  <body>
+    <h1>Lightshow</h1>
+    <div style="">
+      <a href="http://localhost:3000/login">
+        <button>Login with Spotify!</button>
+      </a>
+      {% if playing.item %}
+      <p>
+        Currently Playing: {{playing.item.name}} by
+        {{playing.item.artists.0.name}}
+      </p>
+      <p>Device Playing: {{playing.device.name}}</p>
+      {% endif %}
+      <img
+        src="{{ url_for('static', filename='images/jesung.png') }}"
+        style="width: 500px"
+      />
+    </div>
+  </body>
+</html>

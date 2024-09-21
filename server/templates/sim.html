@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Box Sync</title>
+    <style>
+      #color-box {
+        min-height: 100vh;
+        width: 100%;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="color-box">
+      <p id="levels"></p>
+      <p id="time"></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    <script src="{{ url_for('static', filename='js/sim.js') }}"></script>
+  </body>
+</html>

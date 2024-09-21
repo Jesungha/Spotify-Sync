@@ -1,0 +1,33 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+# Domain	Subdomain	Path	Secure	Expire	Name	Value
+.open.spotify.com	TRUE	/	FALSE	1725216393	_pin_unauth	dWlkPU4yWTFOR05pT0RNdE1EazRaUzAwTWpNNExXRm1aVGN0WVRoa1pUWTVZVEV6TWpNeA
+.spotify.com	TRUE	/us/premium	FALSE	1703625865	_scid	139a999b-bce6-4613-b3e2-dbdb656ca493
+.spotify.com	TRUE	/us	FALSE	1703625867	_scid	5ffba943-e040-4f77-96e6-1fa329723bb6
+.spotify.com	TRUE	/us	FALSE	1703625867	_sctr	1|1669356000000
+.spotify.com	TRUE	/	TRUE	1703999167	sp_m	us
+.spotify.com	TRUE	/	TRUE	1725216392	sp_t	9a149860-477c-4beb-b391-d351311fdd09
+.spotify.com	TRUE	/	TRUE	1725216393	sp_adid	981632d5-0574-43d9-80c1-dc595044bdfc
+.spotify.com	TRUE	/	FALSE	1703603168	_cs_c	0
+.spotify.com	TRUE	/	FALSE	1703135200	_tt_enable_cookie	1
+.spotify.com	TRUE	/	FALSE	1703135200	_ttp	3d63b0a6-94a3-481b-a66e-5890ad96fe01
+.spotify.com	TRUE	/	FALSE	1703999168	_ts_yjad	1669439168607
+.spotify.com	TRUE	/	FALSE	1703603168	_cs_id	abb50bc8-e8c2-a841-cad8-ef546e3939c1.1669439168.1.1669439200.1669439168.1.1703603168008
+.spotify.com	TRUE	/	FALSE	1703999209	_ga_S35RN5WNT2	GS1.1.1669439167.1.1.1669439209.18.0.0
+.spotify.com	TRUE	/	FALSE	1703625913	_scid	12f97713-511a-4966-9e74-74bfccc562a5
+.spotify.com	TRUE	/	FALSE	1707402919	_sctr	1|1673157600000
+.spotify.com	TRUE	/	TRUE	1705200011	sp_dc	AQAQtK8fs1mNIGUEOsddyjW2gTo6TLvMP4ISyfg4JujRK-qtcPeffSPqLr7T2uuinpp3Z4Jr-DgLXfSsfV92mSSCQP5JGplFMrin8vbuKNhAdUGZvzRFuGERUEIaRNzeZhbqJu8IOLQUBcNY0RPsicTcnJOOd6M
+.spotify.com	TRUE	/	TRUE	1705200011	sp_key	091a03c9-c07b-4061-b063-84082eb003f9
+.spotify.com	TRUE	/	TRUE	1693766752	sp_landing	https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D9a149860-477c-4beb-b391-d351311fdd09%26device%3Ddesktop
+.spotify.com	TRUE	/	FALSE	1701456354	_gcl_au	1.1.233751200.1693680354
+.spotify.com	TRUE	/	FALSE	1693766793	_gid	GA1.2.1538744180.1693680355
+.spotify.com	TRUE	/	FALSE	1693680414	_gat_UA-5784146-31	1
+.spotify.com	TRUE	/	FALSE	1728240393	_ga	GA1.1.648070369.1669439168
+.spotify.com	TRUE	/	FALSE	1728240393	_ga_ZWG1NSHWD8	GS1.1.1693680354.7.1.1693680393.0.0.0
+.spotify.com	TRUE	/	FALSE	1725216393	OptanonConsent	isIABGlobal=false&datestamp=Sat+Sep+02+2023+13%3A46%3A33+GMT-0500+(Central+Daylight+Time)&version=6.26.0&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2CBG154%3A1%2CBG155%3A1%2Cf11%3A1&AwaitingReconsent=false&isGpcEnabled=0&consentId=1acf8e88-d6ee-48f1-a857-0b2e5d0c2617&interactionCount=0
+accounts.spotify.com	FALSE	/	TRUE	1707776221	__Host-device_id	AQBGgw8XecFm_ku6rgiWh0uTLHaeKs0pIhbjiOPQOlwkpCs9i5IpAmfYQNo2cS9RawSeXWCjUmZNOaCecIYTJmoxLZkn1D-ZIjo
+open.spotify.com	FALSE	/playlist	FALSE	0	sss	1
+open.spotify.com	FALSE	/	FALSE	0	sss	1
+

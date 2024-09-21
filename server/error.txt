@@ -1,0 +1,25 @@
+Exception in thread Thread-1 (poll_playing):
+Traceback (most recent call last):
+  File "C:\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Jesung\Documents\GitHub\spotify-rgb-sync\server\app.py", line 95, in poll_playing
+    seq = build_light_sequence()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jesung\Documents\GitHub\spotify-rgb-sync\server\app.py", line 55, in build_light_sequence
+    path = download_song(song_id, "./out")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jesung\Documents\GitHub\spotify-rgb-sync\server\downloader\downloader.py", line 33, in download_song
+    dl.fixup(decryption_key, enc_location, fixed_location)
+  File "C:\Users\Jesung\Documents\GitHub\spotify-rgb-sync\server\downloader\dl.py", line 320, in fixup
+    subprocess.run(
+  File "C:\Python311\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Python311\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
